@@ -397,15 +397,22 @@ nav div a {
     align-items: center;
 }
 .label__radio{
-    
+    display: flex;
+    width: 40%;
     color: black;
     padding: 10px;
     font-weight: 300;
     
 }
 .label__radio input{
-    fill:rgb(239, 79, 95) ;
+    accent-color: rgb(239, 79, 95);
+    height: 25px;
+    width: 30%;
+    
+    
 }
+
+
 .appstore__playstore__logo{
     display: flex;
     flex-direction: row;
@@ -420,6 +427,7 @@ nav div a {
     display: flex;
     gap: 10px;
 }
+
 .share__app__section input{
     border: 1px solid rgb(221, 216, 216);
     color: black;
@@ -486,7 +494,6 @@ nav div a {
 .footer__section__one{
     width: 80%;
     display: flex;
-    
     padding: 40px;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -790,4 +797,12 @@ nav div a {
     
    }
    
+}
+/*additional section*/
+.remove{
+    display: none !important;
+}
+.add{
+    display: flex ;
+    
 }
